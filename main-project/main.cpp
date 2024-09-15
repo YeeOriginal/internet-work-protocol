@@ -6,6 +6,7 @@ using namespace std;
 #include "file_reader.h"
 #include "constants.h"
 #include "functions.h"
+#include "process.h"
 
 int main()
 {
@@ -15,7 +16,6 @@ int main()
 	
 	internet_work_protocol* protocols[MAX_FILE_ROWS_COUNT];
 	int size = NULL;
-
 	try
 	{
 		read("data.txt", protocols, size);

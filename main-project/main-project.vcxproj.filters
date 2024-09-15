@@ -15,6 +15,23 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <ClInclude Include="constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="file_reader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="process.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+>>>>>>> unit-test
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -24,6 +41,7 @@
     <ClCompile Include="functions.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+<<<<<<< HEAD
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="constants.h">
@@ -38,6 +56,11 @@
     <ClInclude Include="functions.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+=======
+    <ClCompile Include="process.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+>>>>>>> unit-test
   </ItemGroup>
   <ItemGroup>
     <Text Include="data.txt">
